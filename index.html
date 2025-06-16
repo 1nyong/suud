@@ -560,11 +560,12 @@
 
 <script src="https://cdn.jsdelivr.net/npm/tabletop@1.6.0/tabletop.min.js"></script>
 <script>
-	// playb audio
-	var audio = new Audio('https://github.com/1nyong/suud/blob/84ac4a3797b85c25ffbe969fe17ac717a3ca8979/audio/Kabagyan.mp3');
-	audio.play();
-	
   window.addEventListener('DOMContentLoaded', () => {
+
+	// playb audio
+	var audio = new Audio('./audio/Kabagyan.mp3');
+	audio.play();
+
     Tabletop.init({
       key: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTic-J4Gb8OVBYGINUwbXbFeA4wmwWcB5mjqNAydx7xumaK0_S20V8nZ1EgCgsH5ft4jA5Qe_Hx5eKi/pubhtml',
       simpleSheet: true,
@@ -913,3 +914,4 @@
 
 </body>
 </html>
+
