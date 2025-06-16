@@ -561,6 +561,11 @@
 <script src="https://cdn.jsdelivr.net/npm/tabletop@1.6.0/tabletop.min.js"></script>
 <script>
   window.addEventListener('DOMContentLoaded', () => {
+
+	// playb audio
+	var audio = new Audio('/audio/Kabagyan.mp3');
+	audio.play();
+	
     Tabletop.init({
       key: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTic-J4Gb8OVBYGINUwbXbFeA4wmwWcB5mjqNAydx7xumaK0_S20V8nZ1EgCgsH5ft4jA5Qe_Hx5eKi/pubhtml',
       simpleSheet: true,
@@ -592,10 +597,10 @@
   </div>
 </div>
 
-<audio controls autoplay>
+<!-- <audio controls autoplay>
   <source src="/audio/Kabagyan.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
-</audio>
+</audio> -->
 
 <style>
   .rekening-wrapper {
